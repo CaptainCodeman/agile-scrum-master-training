@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://www.agile-scrum-master-training.com/sitemap.xml

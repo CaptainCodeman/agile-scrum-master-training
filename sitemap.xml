@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://www.agile-scrum-master-training.com/</loc>
+      <lastmod>2013-07-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://www.agile-scrum-master-training.com/agile-project-management/</loc>
+      <lastmod>2013-07-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>http://www.agile-scrum-master-training.com/certified-scrum-master-csm-vs-professional-scrum-master-psm/</loc>
+      <lastmod>2013-07-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+</urlset> 
