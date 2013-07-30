@@ -1,0 +1,173 @@
+---
+layout: default
+title: Why use Agile Project Management?
+lead: "Agile is an iterative and incremental software development methodology where requirements and solutions evolve through collaborative processes."
+slug: "agile-project-management"
+base_url: "../"
+---
+
+<div class="col-lg-3">
+  <div class="bs-sidebar">
+    <ul class="nav bs-sidenav">
+      <li><a href="#waterfall">The Waterfall Method</a></li>
+      <li><a href="#how-agile-works">How Agile Works</a></li>
+      <li><a href="#agile-manifesto">The Agile Manifesto</a>
+      	<ul class="nav">
+      		<li><a href="#agile-values">Core Values</a></li>
+      		<li><a href="#agile-principles">Twelve Principles</a></li>
+      	</ul>
+      </li>
+      <li><a href="#agile-scrum">Agile Variations and Scrum</a></li>
+    </ul>
+  </div>
+</div>
+<div class="col-lg-9">
+
+  <!-- Origins
+  ================================================== -->
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="waterfall">The 'Old' Waterfall Method</h1>
+    </div>
+    <p class="lead">The Waterfall Process is often blamed for failed Software Projects.</p>
+    
+    <p>The process of developing a new computer system was often lengthy and expensive and they often suffered from delays, budget overruns and complete failure due to cancellations or because the finished system didn't deliver what was expected. In time, the cause of many of the failures was seen to be the process itself.</p>
+    <p>Waterfall consists of a series of stages that are completed sequentially with each stage producing outputs that became the input to the next. The initial System Analysis and Design used various prescriptive techniques to produce a specification for a team of programmers to implement in code which when complete would be tested, deployed and then maintained.</p>
+    <img src="waterfall.png" style="max-width:100%" width="560" height="250" alt="classic waterfall methodology"/>
+    <p>Can you spot the problem? Yes - water flows downhill! It wasn't easy for later stages to provide input or valuable feedback into previous ones. Although there was typically <em>some</em> overlap the specialists responsible for a given stage were often moved on to their next project once their stage was completed.</p>
+    <ul>
+    	<li>What if a requirement was missed and only identified during testing?</li>
+    	<li>What if a deployment issue required changes to the system design?</li>
+    	<li>What if testing highlighted a misunderstanding with requirements?</li>
+    </ul>
+
+	 <div class="bs-callout bs-callout-danger">
+      <h4>Cost of making changes increased dramatically</h4>
+	   <p>The cost of making a change increased dramatically as the consequences of any decision fed through to the other stages. If testing uncovered an incorrect requirement it meant revisiting the Analysis, Design and Implementation stages again - extra communication, effort and frequently negotiations.</p>
+    </div>        
+    
+    <p>If a system failed was it because the requirements were wrong? Or the design was faulty? Or maybe it was coded badly? Or not tested well enough? Or operations screwed up? Companies and teams resorted to detailed contracts and excessive documentation to avoid the risk of being 'blamed' for their contribution.</p>
+    <p>Because the process was lengthy and expensive and it wasn't easy to go back to a previous step there was a tendency to over-specify systems. Instead of asking for just what was required, people felt they needed to make the best of their one opportunity to request everything they could conceivably think of and this further compounded issues by making systems way more complex than was really necessary.</p>
+    <p>Even if everything was done perfectly, the systems often took so long to be completed that what was finally delivered was often the system that the company needed 2 years ago when the requirements were first identified but which no longer completely suited their needs.</p>
+	 
+	 <div class="bs-callout bs-callout-warning">
+      <h4>Waterfall didn't allow companies to react</h4>
+	   <p>The waterfal approach simply didn't allow companies to react quickly enough to changing business conditions because the lead-time for delivering a system was so long and the outcome variable.</p>
+    </div>   
+        
+    <p>These system failures were so common that <a href="http://www.projectcartoon.com/" target="_blank">cartoons were created to satarise the issues</a> which were <a href="http://www.businessballs.com/treeswing.htm" target="_blank">well known for some time</a>.</p>
+    <img src="how-projects-really-work.png" style="max-width:100%" width="680" height="441" alt="how projects work"/>
+  </div>
+  
+   <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="how-agile-works">How Agile Works</h1>
+    </div>
+    <p class="lead">The basic premise of Agile is to maximize value - focus on the things that increase productivity and remove impediments.</p>
+    
+    <p>Agile was conceived as a lightweight alternative to the established heavyweight Project Management methodologies that had been proven to be ineffective when applied to software development.</p>
+    <p>Based on the experiences of successful and productive teams and new software development practices such as Test Driven Development it was focused on removing unproductive activities and enabling skilled people to focus their efforts on what they did best.</p>
+
+    <p>Instead of approaching a computer system like an engineering construction (such as building a house) where the <em>complete foundation</em> is built first before the next layer is added, people recognised that software was different and much more pliable. Good software development techniques meant that code didn't need to be seen as static but should evolve as a system was developed. Now, all that needed to be built was just what was needed for the next feature.</p>
+    
+	 <div class="bs-callout bs-callout-info">
+      <h4>Fixed SQL Database Schema vs NoSQL</h4>
+      <p>The rigid and inflexible database schemas of Relational Database Management Systems (RDBMS) or 'SQL' were often viewed as the <em>foundation</em> for any new system.</p>
+	   <p>Agile software development has contributed to the increased adoption of <a href="http://www.mongodb.org" target="_blank">NoSQL database technologies such as MongoDB</a> which promote flexibility and remove some of the need for lengthy up-front schema design work.</p>
+    </div>    
+
+    <p>Agile was an enabler to allow teams to focus on delivering working features to the customer, often within the first weeks of a project and ongoing throughout it's lifecycle. This provided immediate feedback and allowed quick changes when necessary as the customer could both see visible progress and provide better direction for future work.</p>    
+    
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h4>Waterfall Approach</h4>
+        <img src="layered.png" width="300" height="160" style="max-width:100%" alt="waterfall fails to deliver anything of value until completion"/>
+        <p>Despite the large expenditure of effort and cost, the system doesn't provide usable features until it is complete.</p>
+      </div>
+      <div class="col-12 col-lg-6">
+        <h4>Agile Approach</h4>
+        <img src="agile.png" width="300" height="160" style="max-width:100%" alt="agile delivers usable features and immediate business value"/>
+        <p>Completed features are usable as soon as they are completed with much less effort.</p>
+      </div>
+    </div>   
+
+    <p>The minimum amount of effort is required to create a <a href="http://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank">"Minumum Viable Product (MVP)</a> which finally allowed companies to try out ideas and react quickly. An iterative process is used to build the software incrementally with each increment being a working, usable version progressing toward the final goal.</p>
+    <p>Instead of work being handed from team to team of separate specialists an Agile team is cross-functional with all of the skills necessary to analyze, architect, design, build, test and deploy the solution.</p>    
+    <p>However, while there are some recognised practices the Agile approach itself was not prescriptive and there were many flavors and variations. The core values and principles were enshrined in the Agile Manifesto.</p>
+  </div>
+
+  <!-- The Agile Manifesto
+  ================================================== -->
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="agile-manifesto">The Agile Manifesto</h1>
+    </div>
+    <p class="lead">The Agile Manifestor is based on a set of core values and principles.</p>
+    
+    <p>The <a href="http://agilemanifesto.org/" target="_blank">Agile Manifestor</a> was the result of the leading proponents of various Agile approaches coming together and combining their ideas into a set of core values and principles for practitioners to follow.</p>
+
+	 <div class="bs-callout bs-callout-info">
+      <h4 id="agile-values">Core Values</h4>
+	   <p>We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:</p>
+	   <ul>
+        <li><strong>Individuals and interactions</strong> over processes and tools</li>
+        <li><strong>Working software</strong> over comprehensive documentation</li>
+        <li><strong>Customer collaboration</strong> over contract negotiation</li>
+        <li><strong>Responding to change</strong> over following a plan</li>
+      </ul>
+	   <p>That is, while there is value in the items on the right, we value the items on the left more.</p>
+    </div> 
+    
+    <p>Some claim agile does away with planning, contracts and documentation which it clearly doesn't. It simply places more value on things such as working software and collaboration as these are more likely to directly contribute to a successful outcome.</p>   
+
+    <div class="bs-callout bs-callout-info">
+      <h4 id="agile-principles">Twelve Principles of Agile</h4>
+      <p>We follow these principles:</p>
+      <ul>
+        <li>Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.</li>
+        <li>Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.</li>
+        <li>Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.</li>
+        <li>Business people and developers must work together daily throughout the project.</li>
+        <li>Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.</li>
+        <li>The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.lip</li>
+        <li>Working software is the primary measure of progress.</li>
+        <li>Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.</li>
+        <li>Continuous attention to technical excellence and good design enhances agility.</li>
+        <li>Simplicity--the art of maximizing the amount of work not done--is essential.</li>
+        <li>The best architectures, requirements, and designs emerge from self-organizing teams.</li>
+        <li>At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</li>
+		</ul>
+    </div>
+    
+    <p><a href="http://www.agilealliance.org/" target="_blank">The Agile Alliance</a> was formed by many of the Agile Manifesto's authors to further promote and formalise the Agile approach.</p>
+  </div>
+
+  <!-- Agile variations and Scrum
+  ================================================== -->
+  <div class="bs-docs-section">
+    <div class="page-header">
+      <h1 id="agile-scrum">Agile Variations and Scrum</h1>
+    </div>
+    <p class="lead">Scrum gained the most traction and became synonymous with Agile.</p>
+    
+    <p>Over time a variety of different approaches developed all based on the core values and principles of Agile. These included:</p>
+    
+    <ul>
+      <li>Agile Modeling</li>
+      <li>Agile Unified Process (AUP)</li>
+      <li>Crystal Clear</li>
+      <li>Crystal Methods
+      <li>Dynamic Systems Development Method (DSDM)</li>
+      <li>Extreme Programming (XP)</li>
+      <li>Feature Driven Development (FDD)</li>
+      <li>Graphical System Design (GSD)
+      <li>Kanban</li>
+      <li>Lean software development</li>
+      <li>Scrum</li>
+    </ul>
+        
+    <p>Scrum became the most widely known and recognised and gave birth to new titles within development teams such as 'Scrum Master'.</p>
+    <p>As recognition of Scrum as an approach to developing software grew there was an increasing need for more formal <a href="../certified-scrum-master-csm-vs-professional-scrum-master-psm">Scrum Master Certifications</a> to identify those with the genuine skills and real experience who could introduce and champion it within a organisation looking to adopt Agile.</p>
+  </div>
+  
+</div>
