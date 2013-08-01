@@ -10,6 +10,11 @@ body {
   padding-top: 50px; /* Account for fixed navbar */
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Custom docs button */
 .btn-bs {
   color: #563d7c;
