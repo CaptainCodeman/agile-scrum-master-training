@@ -1,0 +1,8 @@
+appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
+appnexus.com, 3702, RESELLER
+districtm.io, 100777, DIRECT
+google.com, pub-4566592844615097, RESELLER
+google.com, pub-5049499290128209, DIRECT, f08c47fec0942fa0
+google.com, pub-9685734445476814, RESELLER, f08c47fec0942fa0
+lijit.com, 246582, DIRECT, fafdf38b16bf6b2b
+sovrn.com, 246582, DIRECT, fafdf38b16bf6b2b
